@@ -1,157 +1,240 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="topbar">
-    <div class="menu">☰</div>
-    <h1>NETFIX</h1>
-    <div class="search">🔍</div>
-  </header>
 
-  <section class="filters">
-    <select>
-      <option>Усі жанри</option>
-      <option>Бойовик</option>
-      <option>Комедія</option>
-      <option>Кримінал</option>
-      <option>Документальний</option>
-      <option>Драма</option>
-      <option>Сімейний</option>
-      <option>Фентезі</option>
-      <option>Жахи</option>
-      <option>Детектив</option>
-      <option>Мелодрама</option>
-      <option>Фантастика</option>
-      <option>Трилер</option>
-      <option>Романтика</option>
+<header class="topbar">
+    <div class="menu">☰</div>
+
+    <h1>NETFLIX</h1>
+
+    <div class="search">🔍</div>
+</header>
+
+<section class="filters">
+
+    <select id="genreFilter">
+        <option>Усі жанри</option>
+        <option>Бойовик</option>
+        <option>Комедія</option>
+        <option>Драма</option>
+        <option>Фантастика</option>
+        <option>Жахи</option>
+        <option>Романтична комедія</option>
+        <option>Анімація</option>
+        <option>Історичний</option>
     </select>
 
-     <div class="row">
-      <label class="switch">
-        <input type="checkbox">
-        <span class="slider"></span>
-      </label>
+    <div class="row">
 
-      <span class="ua">Українська озвучка</span>
+        <label class="switch">
+            <input type="checkbox" id="uaFilter">
+            <span class="slider"></span>
+        </label>
 
-      <select>
-        <option>По порядку</option>
-        <option>За рейтингом</option>
-      </select>
+        <span class="ua">Українська озвучка</span>
+
+        <select id="sortFilter">
+            <option>По порядку</option>
+            <option>За рейтингом</option>
+            <option>За популярністю</option>
+        </select>
+
     </div>
-  </section>
 
-  <main class="movies">
+</section>
 
-    <article class="movie">
-      <img src="https://kinoukr.tv/uploads/posts/2026-07/935ac79170_posterx.webp">
+<main class="movies">
 
-      <div class="info">
-        <h2>Енола Холмс 3</h2>
-        
+   <article class="movie" data-genre="Бойовик">
+  <img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Deadpool_%26_Wolverine_poster.jpg">
 
-        <p><b>2026 • Драма</b></p>
-        <p><b>В ролях:</b> Міллі Боббі Браун, Луїс Партрідж, Генрі Кавілл,</p>
+  <div class="info">
+    <h2>Дедпул і Росомаха</h2>
 
-        <div class="meta">
-          <span>Час:1г 28хв</span>
-          <span>58 вражень ❤️</span>
-        </div>
+    <p><b>2024 • Бойовик</b></p>
 
-        <div class="bottom">
-          <div class="score">
-            <div class="big">8.9</div>
-            <div class="small">40 оцінок</div>
-          </div>
+    <p><b>В ролях:</b> Раян Рейнольдс, Г'ю Джекман, Емма Коррін</p>
 
-          <div class="actions">
-            <button onclick="trailer('Енола Холмс')">▶️</button>
-            <button>🔖</button>
-            <button>👤</button>
-          </div>
-        </div>
+    <div class="meta">
+      <span>Час: 2г 8хв</span>
+      <span>201 враження ❤️</span>
+    </div>
+
+    <div class="bottom">
+      <div class="score">
+        <div class="big">8.4</div>
+        <div class="small">212 оцінок</div>
       </div>
-    </article>
 
-    <article class="movie">
-      <img src="https://img.kinobaza.com.ua/t/p/original/1Qbv2z09GDjTD3Xm3C7xbd6HABu.jpg">
-
-      <div class="info">
-        <h2>Повідомлення до ізабель</h2>
-        
-
-        <p><b>2026 • Романтична комедія</b></p>
-        
-        <p><b>В ролях:</b> Зої Дойч, Ніки Робінсон, Нік Офферман, </p>
-
-        <div class="meta">
-          <span>Час: 1г 58хв</span>
-          <span>68 вражень ❤️</span>
-        </div>
-
-        <div class="bottom">
-          <div class="score">
-            <div class="big">8.5</div>
-            <div class="small">55 оцінок</div>
-          </div>
-
-          
-
-          <div class="actions">
-            <button onclick="trailer('Повідомлення до ізабель')">▶️</button>
-            <button>🔖</button>
-            <button>👤</button>
-          </div>
-        </div>
+      <div class="actions">
+        <button onclick="trailer('Дедпул і Росомаха')">▶️</button>
+        <button>🔖</button>
+        <button>👤</button>
       </div>
-    </article>
+    </div>
+  </div>
+</article>
 
-  </main>
+<article class="movie" data-genre="Комедія">
+  <img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg">
 
-  <article class="movie">
-      <img src="https://uafix.net/uploads/posts/2026-06/1781854097_cd02ed714b32858f6a62107a054266dc.jpeg">
+  <div class="info">
+    <h2>Барбі</h2>
 
-      <div class="info">
-        <h2>Оазис</h2>
-        
+    <p><b>2023 • Комедія</b></p>
 
-        <p><b>2026 • Драма</b></p>
-        
-        <p><b>В ролях:</b>Ана Ґарсес, Томі Агілера, Вікторія Канч </p>
+    <p><b>В ролях:</b> Марго Роббі, Раян Гослінг, Америка Феррера</p>
 
-        <div class="meta">
-          <span>Час:2г</span>
-          <span>59 вражень ❤️</span>
-        </div>
+    <div class="meta">
+      <span>Час: 1г 54хв</span>
+      <span>188 вражень ❤️</span>
+    </div>
 
-        <div class="bottom">
-          <div class="score">
-            <div class="big">8.7</div>
-            <div class="small">55 оцінок</div>
-          </div>
-
-          
-
-          <div class="actions">
-            <button onclick="trailer('Оазис')">▶️</button>
-            <button>🔖</button>
-            <button>👤</button>
-          </div>
-        </div>
+    <div class="bottom">
+      <div class="score">
+        <div class="big">8.1</div>
+        <div class="small">230 оцінок</div>
       </div>
-    </article>
 
-  </main>
+      <div class="actions">
+        <button onclick="trailer('Барбі')">▶️</button>
+        <button>🔖</button>
+        <button>👤</button>
+      </div>
+    </div>
+  </div>
+</article>
 
-  <script src="script.js"></script>
-</body>
-</html>
+<article class="movie" data-genre="Фантастика">
+  <img src="https://upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg">
 
+  <div class="info">
+    <h2>Дюна: Частина друга</h2>
+
+    <p><b>2024 • Фантастика</b></p>
+
+    <p><b>В ролях:</b> Тімоті Шаламе, Зендея, Ребекка Фергюсон</p>
+
+    <div class="meta">
+      <span>Час: 2г 46хв</span>
+      <span>124 враження ❤️</span>
+    </div>
+
+    <div class="bottom">
+      <div class="score">
+        <div class="big">8.8</div>
+        <div class="small">145 оцінок</div>
+      </div>
+
+      <div class="actions">
+        <button onclick="trailer('Дюна: Частина друга')">▶️</button>
+        <button>🔖</button>
+        <button>👤</button>
+      </div>
+    </div>
+  </div>
+</article>
+
+<article class="movie" data-genre="Жахи">
+  <img src="https://upload.wikimedia.org/wikipedia/en/0/0a/Smile_%282022_film%29.jpg">
+
+  <div class="info">
+    <h2>Усміхайся</h2>
+
+    <p><b>2022 • Жахи</b></p>
+
+    <p><b>В ролях:</b> Соссі Бейкон, Джессі Ашер, Кайл Галлнер</p>
+
+    <div class="meta">
+      <span>Час: 1г 55хв</span>
+      <span>142 враження ❤️</span>
+    </div>
+
+    <div class="bottom">
+      <div class="score">
+        <div class="big">7.8</div>
+        <div class="small">173 оцінки</div>
+      </div>
+
+      <div class="actions">
+        <button onclick="trailer('Усміхайся')">▶️</button>
+        <button>🔖</button>
+        <button>👤</button>
+      </div>
+    </div>
+  </div>
+</article>
+
+<article class="movie" data-genre="Історичний">
+  <img src="https://upload.wikimedia.org/wikipedia/en/5/5d/Gladiator_II_poster.jpg">
+
+  <div class="info">
+    <h2>Гладіатор II</h2>
+
+    <p><b>2024 • Історичний</b></p>
+
+    <p><b>В ролях:</b> Пол Мескал, Педро Паскаль, Дензел Вашингтон</p>
+
+    <div class="meta">
+      <span>Час: 2г 28хв</span>
+      <span>147 вражень ❤️</span>
+    </div>
+
+    <div class="bottom">
+      <div class="score">
+        <div class="big">8.2</div>
+        <div class="small">168 оцінок</div>
+      </div>
+
+      <div class="actions">
+        <button onclick="trailer('Гладіатор II')">▶️</button>
+        <button>🔖</button>
+        <button>👤</button>
+      </div>
+    </div>
+  </div>
+</article>
+
+<article class="movie" data-genre="Анімація">
+  <img src="https://upload.wikimedia.org/wikipedia/en/f/f7/Inside_Out_2_poster.jpg">
+
+  <div class="info">
+    <h2>Думками навиворіт 2</h2>
+
+    <p><b>2024 • Анімація</b></p>
+
+    <p><b>В ролях:</b> Емі Полер, Майя Гоук, Ліза Лапіра</p>
+
+    <div class="meta">
+      <span>Час: 1г 36хв</span>
+      <span>173 враження ❤️</span>
+    </div>
+
+    <div class="bottom">
+      <div class="score">
+        <div class="big">8.5</div>
+        <div class="small">194 оцінки</div>
+      </div>
+
+      <div class="actions">
+        <button onclick="trailer('Думками навиворіт 2')">▶️</button>
+        <button>🔖</button>
+        <button>👤</button>
+      </div>
+    </div>
+  </div>
+</article>
+
+</main>
+
+<script src="script.js"></script>
 
 </body>
 </html>

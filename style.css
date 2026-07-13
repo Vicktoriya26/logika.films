@@ -3,11 +3,15 @@
   padding:0;
   box-sizing:border-box;
 }
+header{
+  background:#000000;
+  
+}
 
 body{
   font-family:Arial,sans-serif;
   background:#000000;
-  color:#ff0000;
+ 
 }
 
 .topbar{
@@ -15,24 +19,26 @@ body{
   justify-content:space-between;
   align-items:center;
   padding:20px;
-  background:white;
+  background:rgb(0, 0, 0);
 }
 
 .topbar h1{
   font-size:32px;
+  color: red
 }
 
-.topbar span{
-  font-weight:900;
+
+.menu {
+  font-size:32px;
 }
 
-.menu,.search{
+.search{
   font-size:32px;
 }
 
 .filters{
   padding:20px;
-  background:white;
+  background:rgb(0, 0, 0);
   margin-bottom:20px;
 }
 
@@ -122,6 +128,10 @@ input:checked + .slider:before{
   margin-bottom:2px;
 }
 
+.original{
+  color:#999;
+  margin-bottom:10px;
+}
 
 .info p{
   margin-bottom:6px;
