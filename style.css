@@ -4,7 +4,7 @@
   box-sizing:border-box;
 }
 header{
-  background:#000000;
+  background:#fffafa;
   
 }
 
@@ -30,6 +30,7 @@ body{
 
 .menu {
   font-size:32px;
+  color: white;
 }
 
 .search{
@@ -61,6 +62,7 @@ body{
 .ua{
   flex:1;
   font-size:15px;
+  color: white;
 }
 
 .switch{
@@ -211,4 +213,52 @@ input:checked + .slider:before{
     flex-direction:column;
     align-items:flex-start;
   }
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#searchBtn {
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#searchInput {
+    display: none;
+    width: 200px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.likes {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.likes:hover {
+    color: red;
+    transform: scale(1.05);
+}
+.like-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.like-btn {
+    border: none;
+    background: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.like-btn:disabled {
+    cursor: default;
+    opacity: 0.5;
 }
