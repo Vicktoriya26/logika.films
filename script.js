@@ -15,7 +15,8 @@ const moviesData = [
     impressions: 280,
     rating: 8.1,
     votes: "212 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/4/4c/Deadpool_%26_Wolverine_poster.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/en/4/4c/Deadpool_%26_Wolverine_poster.jpg",
+    trailer: "https://youtu.be/ACGBv-CZ3bM"
   },
   {
     id: 2,
@@ -27,7 +28,8 @@ const moviesData = [
     impressions: 180,
     rating: 8.1,
     votes: "230 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg",
+    trailer: "https://youtu.be/K9cibjqbcBQ"
   },
   {
     id: 3,
@@ -39,7 +41,8 @@ const moviesData = [
     impressions: 124,
     rating: 8.8,
     votes: "145 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg"
+    image: "https://upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg",
+    trailer: "https://youtu.be/ygtS6q3EL7Y"
   },
   {
     id: 4,
@@ -51,7 +54,8 @@ const moviesData = [
     impressions: 150,
     rating: 7.8,
     votes: "173 оцінки",
-    image: "https://s9.vcdn.biz/static/f/5106130101/image.jpg"
+    image: "https://s9.vcdn.biz/static/f/5106130101/image.jpg",
+    trailer: "https://youtu.be/gunu-sLhOAU"
   },
   {
     id: 5,
@@ -63,7 +67,8 @@ const moviesData = [
     impressions: 147,
     rating: 8.2,
     votes: "168 оцінок",
-    image: "https://cdn.planetakino.ua/730_gladiator-ii_2024/Media/Posters/vertical/opt_f2e680e4-a3ca-44ee-b2e2-602793cb69fa.jpg"
+    image: "https://cdn.planetakino.ua/730_gladiator-ii_2024/Media/Posters/vertical/opt_f2e680e4-a3ca-44ee-b2e2-602793cb69fa.jpg",
+    trailer: "https://youtu.be/ZMGbRsip7l8"
   },
   {
     id: 6,
@@ -75,7 +80,8 @@ const moviesData = [
     impressions: 290,
     rating: 8.2,
     votes: "340 оцінок",
-    image: "https://thumbs.dfs.ivi.ru/storage0/contents/4/1/eb87206b1744bda60fbbbdf7409a24.jpg"
+    image: "https://thumbs.dfs.ivi.ru/storage0/contents/4/1/eb87206b1744bda60fbbbdf7409a24.jpg",
+    trailer: "https://youtu.be/nR3UhmqJR5s"
   },
   {
     id: 7,
@@ -87,7 +93,8 @@ const moviesData = [
     impressions: 415,
     rating: 7.7,
     votes: "480 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Inside_Out_2_poster.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/en/f/f7/Inside_Out_2_poster.jpg",
+    trailer: "https://youtu.be/71Tq0CCCZdE"
   },
   {
     id: 8,
@@ -99,7 +106,8 @@ const moviesData = [
     impressions: 198,
     rating: 7.3,
     votes: "215 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/uk/b/b4/%D0%92%D0%BE%D0%BD%D0%BE_%28%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82_%D1%84%D1%96%D0%BB%D1%8C%D0%BC%D1%83%2C_2017%29.jpeg"
+    image: "https://upload.wikimedia.org/wikipedia/uk/b/b4/%D0%92%D0%BE%D0%BD%D0%BE_%28%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82_%D1%84%D1%96%D0%BB%D1%8C%D0%BC%D1%83%2C_2017%29.jpeg",
+    trailer: "https://youtu.be/pv-vSt25vVQ"
   },
   {
     id: 9,
@@ -111,7 +119,8 @@ const moviesData = [
     impressions: 520,
     rating: 8.9,
     votes: "890 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_%282001%29_poster.jpg"
+    image: "https://audiobook.co.ua/wp-content/uploads/2023/10/volodar-persniv-hraniteli-persnya-dzh-r-r-tolkin.jpg",
+    trailer: "https://youtu.be/uHt4lWmqMD8"
   },
   {
     id: 10,
@@ -123,7 +132,8 @@ const moviesData = [
     impressions: 195,
     rating: 7.9,
     votes: "189 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/1/1f/Knives_Out_poster.png"
+    image: "https://images.vertigo.com.ua/2019/12/knives-out-poster.jpg",
+    trailer: "https://youtu.be/4fLrfxSeCL0"
   },
   {
     id: 11,
@@ -135,7 +145,8 @@ const moviesData = [
     impressions: 310,
     rating: 8.1,
     votes: "420 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/6/6e/Mad_Max_Fury_Road.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/en/6/6e/Mad_Max_Fury_Road.jpg",
+    trailer: "https://youtu.be/UisXcFibFX4"
   },
   {
     id: 12,
@@ -147,7 +158,8 @@ const moviesData = [
     impressions: 580,
     rating: 9.3,
     votes: "950 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+    trailer: "https://youtu.be/kgAeKpAPOYk"
   },
   {
     id: 13,
@@ -171,7 +183,7 @@ const moviesData = [
     impressions: 240,
     rating: 7.7,
     votes: "310 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/b/b9/Hangover_ver2.jpg"
+    image: "https://ictv.ua/wp-content/uploads/2016/12/16/Pohmillya-u-Vegasi-1.jpg"
   },
   {
     id: 15,
@@ -195,7 +207,7 @@ const moviesData = [
     impressions: 210,
     rating: 7.6,
     votes: "195 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/e/e3/Sherlock_Holmes_2009_poster.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyWD-simnooEbWSRdIbm8SMFNfwQ9TvwKqbISEgneq_HTftkZMJLN-QA&s=10"
   },
   {
     id: 17,
@@ -207,7 +219,7 @@ const moviesData = [
     impressions: 395,
     rating: 8.5,
     votes: "610 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_ (2000_film_poster).png"
+    image: "https://uakino.best/uploads/post/Gladiator/fVF3wyy3DPHBr7lpzS2ScQp2XU7.jpg"
   },
   {
     id: 18,
@@ -231,7 +243,7 @@ const moviesData = [
     impressions: 285,
     rating: 7.8,
     votes: "240 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/8/88/About_Time_Poster.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdsfRPkcPsOLuLFx_kzKTM3HIBEVkds_4Njn9NMwYNrewae8wWlON0ueR&s=10"
   },
   {
     id: 20,
@@ -255,7 +267,7 @@ const moviesData = [
     impressions: 610,
     rating: 8.6,
     votes: "820 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/c/ce/Green_mile.jpg"
+    image: "https://uakino.best/uploads/post/The%20Green%20Mile/bqwOUBxtK0KWijnSAR5ykWyQamn.jpg"
   },
   {
     id: 22,
@@ -267,7 +279,7 @@ const moviesData = [
     impressions: 190,
     rating: 7.2,
     votes: "205 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/a/a3/21JumpStreetPoster.jpg"
+    image: "https://cdn-ksvod.kyivstar.ua/content/HLS/VOD/IMAGE5/66880dcb0a5430d32c38e705/IMAGE_2_3_XL.jpg"
   },
   {
     id: 23,
@@ -315,7 +327,7 @@ const moviesData = [
     impressions: 325,
     rating: 8.2,
     votes: "410 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/f/fe/1917_%282019_film%29_poster.jpg"
+    image: "https://uaserials.my/posters/1860.webp"
   },
   {
     id: 27,
@@ -327,7 +339,8 @@ const moviesData = [
     impressions: 495,
     rating: 7.9,
     votes: "620 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/3/39/Shrek.jpg"
+    image: "https://uakino.best/uploads/posts/2026-04/wj9woepmd5gws2l3tiypkzei6k.webp",
+    trailer: ""
   },
   {
     id: 28,
@@ -339,7 +352,8 @@ const moviesData = [
     impressions: 185,
     rating: 6.7,
     votes: "150 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/b/b3/The_Proposal.jpg"
+    image: "https://kinoukr.tv/uploads/mini/short/6/0175320ec172f9b6c1e29feedade88.jpg",
+    trailer: "https://youtu.be/wIwe71cVCjk"
   },
   {
     id: 29,
@@ -351,7 +365,8 @@ const moviesData = [
     impressions: 265,
     rating: 7.6,
     votes: "310 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/2/22/Furiosa_A_Mad_Max_Saga_poster.jpg"
+    image: "https://cdn.planetakino.ua/179_furiosa-a-mad-max-saga_2024/Media/Posters/vertical/opt_74a4f219-8e79-43ff-accc-a960e5daa1b1.jpg",
+    trailer: "https://youtu.be/-KrtC5eFIho"
   },
   {
     id: 30,
@@ -363,7 +378,8 @@ const moviesData = [
     impressions: 290,
     rating: 7.3,
     votes: "280 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/1/13/Bullet_Train_Poster.jpg"
+    image: "https://uaserials.my/posters/6682.webp",
+    trailer: "https://youtu.be/lGLySwBIm40"
   }
 ];
 
@@ -419,7 +435,7 @@ function renderMovies() {
             <div class="small">${movie.votes}</div>
           </div>
           <div class="actions">
-            <button type="button" data-title="${movie.title}">▶️</button>
+            <button type="button" class="trailer-btn" data-trailer="${movie.trailer}" data-title="${movie.title}">▶️</button>
           </div>
         </div>
       </div>
@@ -443,8 +459,12 @@ function addLike(button) {
   button.textContent = "❤️✓";
 }
 
-function trailer(title) {
-  window.alert(`Трейлер для: ${title}`);
+function trailer(url) {
+  Fancybox.show([{
+    src: url,
+    // Вказуємо тип, щоб скрипт точно знав, як обробляти контент
+    type: "video" 
+  }]);
 }
 
 genreFilter.addEventListener("change", renderMovies);
@@ -464,8 +484,32 @@ moviesContainer.addEventListener("click", (event) => {
 
   const trailerButton = event.target.closest(".actions button");
   if (trailerButton) {
-    trailer(trailerButton.dataset.title);
+    trailer(trailerButton.dataset.trailer);
   }
 });
 
 renderMovies();
+
+const loginWindow = document.getElementById("loginWindow");
+
+const loginBtn = document.getElementById("loginBtn");
+const registerBtn = document.getElementById("registerBtn");
+
+loginBtn.addEventListener("click", function () {
+    alert("Вікно входу");
+});
+
+registerBtn.addEventListener("click", function () {
+    alert("Вікно створення акаунта");
+});
+
+const closeLogin = document.getElementById("closeLogin");
+
+closeLogin.addEventListener("click", function () {
+    loginWindow.style.display = "none";
+});
+
+const userBtn = document.getElementById("userBtn");
+userBtn.addEventListener("click", function () {
+    loginWindow.classList.remove("hide");
+});

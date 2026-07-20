@@ -262,3 +262,48 @@ input:checked + .slider:before{
     cursor: default;
     opacity: 0.5;
 }
+.user-btn{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    width: 50px;
+    height: 50px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #222;
+    color: white;
+
+    font-size: 26px;
+    cursor: pointer;
+
+    z-index: 2000;
+}
+
+.login-window{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+
+    background: rgba(0,0,0,.8);
+
+    display:none;      /* приховано */
+    justify-content:center;
+    align-items:center;
+
+    z-index:1500;
+}
+
+.close{
+    float:right;
+    font-size:30px;
+    cursor:pointer;
+}
+
+.hide{
+    display:none;
+}
