@@ -171,7 +171,8 @@ const moviesData = [
     impressions: 490,
     rating: 8.7,
     votes: "780 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+    trailer: "https://youtu.be/6ybBuTETr3U"
   },
   {
     id: 14,
@@ -183,7 +184,8 @@ const moviesData = [
     impressions: 240,
     rating: 7.7,
     votes: "310 оцінок",
-    image: "https://ictv.ua/wp-content/uploads/2016/12/16/Pohmillya-u-Vegasi-1.jpg"
+    image: "https://ictv.ua/wp-content/uploads/2016/12/16/Pohmillya-u-Vegasi-1.jpg",
+    trailer: "https://youtu.be/T_LlAuAf0a0"
   },
   {
     id: 15,
@@ -195,7 +197,8 @@ const moviesData = [
     impressions: 315,
     rating: 8.4,
     votes: "290 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/0/0b/Your_Name_poster.png"
+    image: "https://upload.wikimedia.org/wikipedia/en/0/0b/Your_Name_poster.png",
+    trailer: "https://youtu.be/tT7b5wR0IOM"
   },
   {
     id: 16,
@@ -207,7 +210,8 @@ const moviesData = [
     impressions: 210,
     rating: 7.6,
     votes: "195 оцінок",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyWD-simnooEbWSRdIbm8SMFNfwQ9TvwKqbISEgneq_HTftkZMJLN-QA&s=10"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyWD-simnooEbWSRdIbm8SMFNfwQ9TvwKqbISEgneq_HTftkZMJLN-QA&s=10",
+    trailer: "https://youtu.be/QbQmj_ZjLIc"
   },
   {
     id: 17,
@@ -219,7 +223,8 @@ const moviesData = [
     impressions: 395,
     rating: 8.5,
     votes: "610 оцінок",
-    image: "https://uakino.best/uploads/post/Gladiator/fVF3wyy3DPHBr7lpzS2ScQp2XU7.jpg"
+    image: "https://uakino.best/uploads/post/Gladiator/fVF3wyy3DPHBr7lpzS2ScQp2XU7.jpg",
+    trailer: "https://youtu.be/F2Dr7Qb2Zf8"
   },
   {
     id: 18,
@@ -231,7 +236,8 @@ const moviesData = [
     impressions: 450,
     rating: 8.4,
     votes: "530 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg",
+    trailer: "https://youtu.be/HMnUSq3dC1g"
   },
   {
     id: 19,
@@ -243,7 +249,8 @@ const moviesData = [
     impressions: 285,
     rating: 7.8,
     votes: "240 оцінок",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdsfRPkcPsOLuLFx_kzKTM3HIBEVkds_4Njn9NMwYNrewae8wWlON0ueR&s=10"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdsfRPkcPsOLuLFx_kzKTM3HIBEVkds_4Njn9NMwYNrewae8wWlON0ueR&s=10",
+    trailer: "https://youtu.be/VPgv8B7fM6I"
   },
   {
     id: 20,
@@ -255,7 +262,8 @@ const moviesData = [
     impressions: 380,
     rating: 8.3,
     votes: "490 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/1/13/Top_Gun_Maverick_Poster.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/en/1/13/Top_Gun_Maverick_Poster.jpg",
+    trailer: "https://youtu.be/WKlWUNRjB_8"
   },
   {
     id: 21,
@@ -267,7 +275,8 @@ const moviesData = [
     impressions: 610,
     rating: 8.6,
     votes: "820 оцінок",
-    image: "https://uakino.best/uploads/post/The%20Green%20Mile/bqwOUBxtK0KWijnSAR5ykWyQamn.jpg"
+    image: "https://uakino.best/uploads/post/The%20Green%20Mile/bqwOUBxtK0KWijnSAR5ykWyQamn.jpg",
+    trailer: "https://youtu.be/GzV48fxxENw"
   },
   {
     id: 22,
@@ -279,7 +288,8 @@ const moviesData = [
     impressions: 190,
     rating: 7.2,
     votes: "205 оцінок",
-    image: "https://cdn-ksvod.kyivstar.ua/content/HLS/VOD/IMAGE5/66880dcb0a5430d32c38e705/IMAGE_2_3_XL.jpg"
+    image: "https://cdn-ksvod.kyivstar.ua/content/HLS/VOD/IMAGE5/66880dcb0a5430d32c38e705/IMAGE_2_3_XL.jpg",
+    trailer: "https://youtu.be/_p-Its6AzM4"
   },
   {
     id: 23,
@@ -291,7 +301,8 @@ const moviesData = [
     impressions: 510,
     rating: 8.8,
     votes: "790 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
+    trailer: "https://youtu.be/uYSldhkIDD4"
   },
   {
     id: 24,
@@ -303,7 +314,8 @@ const moviesData = [
     impressions: 420,
     rating: 8.6,
     votes: "580 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/d/db/Spirited_Away_Japanese_poster.png"
+    image: "https://upload.wikimedia.org/wikipedia/en/d/db/Spirited_Away_Japanese_poster.png",
+    trailer: "https://youtu.be/xXEmvE4Q0uw"
   },
   {
     id: 25,
@@ -315,7 +327,8 @@ const moviesData = [
     impressions: 295,
     rating: 8.1,
     votes: "340 оцінок",
-    image: "https://upload.wikimedia.org/wikipedia/en/6/63/Prisoners2013Poster.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/en/6/63/Prisoners2013Poster.jpg",
+    trailer: "https://youtu.be/xwQIUSsPN4Y"
   },
   {
     id: 26,
@@ -327,7 +340,8 @@ const moviesData = [
     impressions: 325,
     rating: 8.2,
     votes: "410 оцінок",
-    image: "https://uaserials.my/posters/1860.webp"
+    image: "https://uaserials.my/posters/1860.webp",
+    trailer: "https://youtu.be/YqNYrYUiMfg"
   },
   {
     id: 27,
@@ -340,7 +354,7 @@ const moviesData = [
     rating: 7.9,
     votes: "620 оцінок",
     image: "https://uakino.best/uploads/posts/2026-04/wj9woepmd5gws2l3tiypkzei6k.webp",
-    trailer: ""
+    trailer: "https://youtu.be/NulK97Hw3QE"
   },
   {
     id: 28,
@@ -492,11 +506,11 @@ renderMovies();
 
 const loginWindow = document.getElementById("loginWindow");
 
-const loginBtn = document.getElementById("loginBtn");
+const loginBtn = document.getElementById("userBtn");
 const registerBtn = document.getElementById("registerBtn");
 
 loginBtn.addEventListener("click", function () {
-    alert("Вікно входу");
+    loginWindow.classList.remove("hide");
 });
 
 registerBtn.addEventListener("click", function () {
@@ -513,3 +527,5 @@ const userBtn = document.getElementById("userBtn");
 userBtn.addEventListener("click", function () {
     loginWindow.classList.remove("hide");
 });
+
+
